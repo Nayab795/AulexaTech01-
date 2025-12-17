@@ -1,41 +1,73 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
 }
 
 body {
-  background: linear-gradient(120deg, #f5e6ff, #e6f0ff, #fff7d6);
-  color: #333;
+  background: hsl(263, 40%, 30%);
+  color: #eaeaff;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 60px;
-  background: rgba(255,255,255,0.9);
-  position: sticky;
+/* SIDEBAR */
+.sidebar {
+  position: fixed;
+  left: 0;
   top: 0;
+  width: 90px;
+  height: 100vh;
+  background: #15182e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: width 0.4s ease;
+  z-index: 100;
+}
+
+.sidebar:hover {
+  width: 220px;
 }
 
 .logo {
-  font-weight: bold;
-  border: 2px dashed #aaa;
-  padding: 10px;
+  margin: 30px 0;
+  padding: 12px;
+  border: 2px dashed #7a7cff;
 }
 
-nav a {
-  margin-left: 20px;
+.sidebar nav a {
+  width: 100%;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #cfd2ff;
   text-decoration: none;
-  color: #333;
+  transition: background 0.3s;
+}
+
+.sidebar nav a:hover {
+  background: #1f2350;
+}
+
+.sidebar span {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.sidebar:hover span {
+  opacity: 1;
+}
+
+/* CONTENT */
+.content {
+  margin-left: 90px;
+  padding: 60px;
 }
 
 .hero {
   text-align: center;
-  padding: 120px 20px;
+  padding: 100px 20px;
 }
 
 .hero h1 {
@@ -44,42 +76,54 @@ nav a {
 
 .tagline {
   margin-top: 15px;
-  font-size: 1.2rem;
+  color: #b8bbff;
 }
 
 .section {
-  padding: 80px 60px;
+  margin-top: 100px;
 }
 
+.section h2 {
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+}
+
+/* TOOLS */
+.tools-grid,
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 30px;
-  margin-top: 40px;
 }
 
+.tool-card,
 .card {
-  background: white;
+  background: #1a1d3a;
   padding: 30px;
-  border-radius: 16px;
-  text-align: center;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+  transition: transform 0.4s;
 }
 
+.tool-card:hover,
 .card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 35px rgba(0,0,0,0.12);
+}
+
+/* TEAM */
+.card .links {
+  margin-top: 15px;
 }
 
 .card i {
-  margin-top: 15px;
-  font-size: 1.5rem;
-  color: #6a5acd;
+  margin: 0 8px;
+  font-size: 1.3rem;
+  color: #7a7cff;
 }
 
+/* FOOTER */
 footer {
   text-align: center;
-  padding: 30px;
-  background: rgba(255,255,255,0.9);
+  margin-top: 120px;
+  opacity: 0.7;
 }

@@ -1,76 +1,146 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>ManovaX.Tech | Software House</title>
+
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-<header>
-  <div class="logo">LOGO SPACE</div>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#team">Meet Our Experts</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
 
+<!-- ========== SIDEBAR NAV ========== -->
+<aside class="sidebar">
+  <div class="logo">LOGO</div>
+  <nav>
+    <a href="#home"><i class="fas fa-house"></i><span>Home</span></a>
+    <a href="#about"><i class="fas fa-circle-info"></i><span>About</span></a>
+    <a href="#tools"><i class="fas fa-toolbox"></i><span>Tech Stack</span></a>
+    <a href="#team"><i class="fas fa-users"></i><span>Experts</span></a>
+    <a href="#contact"><i class="fas fa-envelope"></i><span>Contact</span></a>
+  </nav>
+</aside>
+
+<!-- ========== MAIN CONTENT ========== -->
+<main class="content">
+
+<!-- HOME -->
 <section id="home" class="hero">
   <h1>ManovaX.Tech</h1>
-  <p class="tagline">Technology built on equality, from imagination to innovation.</p>
-</section>
-
-<section id="about" class="section">
-  <h2>About Us</h2>
-  <p>
-    ManovaX.Tech is a modern software house focused on innovation, inclusion,
-    and user-centered digital solutions. We transform ideas into scalable,
-    secure, and visually compelling software products.
+  <p class="tagline">
+    Technology built on equality, from imagination to innovation.
   </p>
 </section>
 
-<section id="team" class="section">
-  <h2>Meet Our Experts</h2>
-  <div class="team-grid">
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2><i class="fas fa-lightbulb"></i> About Us</h2>
+  <p class="about-text">
+    At <strong>ManovaX.Tech</strong>, we believe technology should empower
+    everyone equally. Our work begins with imagination and evolves into
+    impactful innovation. We craft scalable software, immersive digital
+    experiences, and intelligent systems that bridge creativity with
+    engineering excellence. Every solution we build reflects inclusivity,
+    precision, and a deep respect for human-centered design.
+  </p>
+</section>
 
-    <div class="card">
-      <h3>Sameer Amir</h3>
-      <p>Frontend Developer</p>
-      <a href="https://www.linkedin.com/in/sameer-amir-420576260" target="_blank"><i class="fab fa-linkedin"></i></a>
+<!-- TOOLS & TECHNOLOGIES -->
+<section id="tools" class="section">
+  <h2><i class="fas fa-microchip"></i> Tools & Technologies</h2>
+
+  <div class="tools-grid">
+
+    <div class="tool-card">
+      <h3><i class="fas fa-code"></i> Programming Languages</h3>
+      <p>JavaScript, Python, HTML, CSS</p>
     </div>
 
-    <div class="card">
-      <h3>Malkan Shaheen</h3>
-      <p>Full Stack Developer</p>
-      <a href="https://www.linkedin.com/in/malkan-shaheen-a09404260/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <div class="tool-card">
+      <h3><i class="fas fa-layer-group"></i> Frameworks & Libraries</h3>
+      <p>
+        React, Next.js 16, Node.js, FastAPI,
+        React Native (Expo)
+      </p>
     </div>
 
-    <div class="card">
-      <h3>Nayab Bibi</h3>
-      <p>Web Developer & UI Designer</p>
-      <a href="https://www.linkedin.com/in/nayab-bibi-25551b2b2" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <div class="tool-card">
+      <h3><i class="fas fa-database"></i> Databases</h3>
+      <p>MongoDB, MySQL, Firebase Firestore</p>
     </div>
 
-    <div class="card">
-      <h3>Ayesha Altaf</h3>
-      <p>Frontend Developer</p>
-      <a href="https://www.linkedin.com/in/ayesha-altaf-b43100385/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <div class="tool-card">
+      <h3><i class="fas fa-cloud"></i> Cloud & Deployment</h3>
+      <p>Vercel, Amazon EC2</p>
+    </div>
+
+    <div class="tool-card">
+      <h3><i class="fas fa-vr-cardboard"></i> Advanced Technologies</h3>
+      <p>Augmented Reality, TensorFlow</p>
     </div>
 
   </div>
 </section>
 
+<!-- TEAM -->
+<section id="team" class="section">
+  <h2><i class="fas fa-user-group"></i> Meet Our Experts</h2>
+
+  <div class="team-grid">
+
+    <div class="card">
+      <h3>Sameer Amir</h3>
+      <p>Frontend Developer</p>
+      <div class="links">
+        <a href="https://www.malkan.dev/" target="_blank"><i class="fas fa-globe"></i></a>
+        <a href="https://www.linkedin.com/in/sameer-amir-420576260" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Malkan Shaheen</h3>
+      <p>Full Stack Developer</p>
+      <div class="links">
+        <a href="https://nayab795.github.io/Nabi/" target="_blank"><i class="fas fa-globe"></i></a>
+        <a href="https://www.linkedin.com/in/malkan-shaheen-a09404260/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Nayab Bibi</h3>
+      <p>Web Developer & UI Designer</p>
+      <div class="links">
+        <a href="https://nehan690.github.io/Portfolio/" target="_blank"><i class="fas fa-globe"></i></a>
+        <a href="https://www.linkedin.com/in/nayab-bibi-25551b2b2" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Ayesha Altaf</h3>
+      <p>Frontend Developer</p>
+      <div class="links">
+        <a href="https://ayeshaaltaf.netlify.app/" target="_blank"><i class="fas fa-globe"></i></a>
+        <a href="https://www.linkedin.com/in/ayesha-altaf-b43100385/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
 <section id="contact" class="section">
-  <h2>Contact Us</h2>
+  <h2><i class="fas fa-envelope"></i> Contact Us</h2>
   <p>Email: contact@manovax.tech</p>
 </section>
 
 <footer>
-  <p>© 2025 ManovaX.Tech | All Rights Reserved</p>
+  <p>© 2025 ManovaX.Tech — Innovation with Equality</p>
 </footer>
+
+</main>
 </body>
 </html>
