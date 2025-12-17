@@ -1,1 +1,0 @@
-# ManovaX_Tech

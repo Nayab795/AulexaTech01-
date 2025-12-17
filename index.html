@@ -2,23 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>ManovaX.Tech | Software House</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ManovaX.Tech | Leading Software House</title>
+  <meta name="description" content="Technology built on equality, from imagination to innovation. We craft scalable software, digital experiences, and intelligent systems.">
+  
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
-
+  
   <!-- Font Awesome -->
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
 </head>
 <body>
 
 <!-- ========== SIDEBAR NAV ========== -->
 <aside class="sidebar">
-  <div class="logo">LOGO</div>
+  <div class="logo">MX</div>
   <nav>
-    <a href="#home"><i class="fas fa-house"></i><span>Home</span></a>
-    <a href="#about"><i class="fas fa-circle-info"></i><span>About</span></a>
+    <a href="#home"><i class="fas fa-rocket"></i><span>Home</span></a>
+    <a href="#about"><i class="fas fa-lightbulb"></i><span>About</span></a>
+    <a href="#technologies"><i class="fas fa-microchip"></i><span>Technologies</span></a>
     <a href="#tools"><i class="fas fa-toolbox"></i><span>Tech Stack</span></a>
     <a href="#team"><i class="fas fa-users"></i><span>Experts</span></a>
     <a href="#contact"><i class="fas fa-envelope"></i><span>Contact</span></a>
@@ -32,113 +38,267 @@
 <section id="home" class="hero">
   <h1>ManovaX.Tech</h1>
   <p class="tagline">
-    Technology built on equality, from imagination to innovation.
+    Technology built on equality, from imagination to innovation. 
+    We craft the future with cutting-edge solutions.
   </p>
+  
+  <div class="tech-pills">
+    <span class="tech-pill"><i class="fab fa-react"></i> React</span>
+    <span class="tech-pill"><i class="fab fa-node-js"></i> Node.js</span>
+    <span class="tech-pill"><i class="fab fa-python"></i> Python</span>
+    <span class="tech-pill"><i class="fas fa-database"></i> MongoDB</span>
+    <span class="tech-pill"><i class="fas fa-robot"></i> AI/ML</span>
+    <span class="tech-pill"><i class="fas fa-vr-cardboard"></i> AR/VR</span>
+    <span class="tech-pill"><i class="fab fa-aws"></i> AWS</span>
+    <span class="tech-pill"><i class="fas fa-mobile-alt"></i> Flutter</span>
+  </div>
 </section>
 
 <!-- ABOUT -->
 <section id="about" class="section">
-  <h2><i class="fas fa-lightbulb"></i> About Us</h2>
-  <p class="about-text">
-    At <strong>ManovaX.Tech</strong>, we believe technology should empower
-    everyone equally. Our work begins with imagination and evolves into
-    impactful innovation. We craft scalable software, immersive digital
-    experiences, and intelligent systems that bridge creativity with
-    engineering excellence. Every solution we build reflects inclusivity,
-    precision, and a deep respect for human-centered design.
+  <h2><i class="fas fa-lightbulb"></i> About ManovaX.Tech</h2>
+  <p class="about-text" style="font-size: 1.2rem; line-height: 1.8;">
+    At <strong style="color: #7a7cff;">ManovaX.Tech</strong>, we're pioneering the future of digital solutions. 
+    Our team of expert developers, designers, and strategists work together to create 
+    transformative technology that drives business growth and enhances user experiences.
   </p>
+  
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 40px;">
+    <div>
+      <h3><i class="fas fa-bullseye"></i> Our Mission</h3>
+      <p>To deliver exceptional software solutions that empower businesses and create meaningful impact through technology.</p>
+    </div>
+    <div>
+      <h3><i class="fas fa-eye"></i> Our Vision</h3>
+      <p>To be the leading software house recognized for innovation, quality, and client success globally.</p>
+    </div>
+    <div>
+      <h3><i class="fas fa-handshake"></i> Our Values</h3>
+      <p>Innovation, Integrity, Excellence, Collaboration, and Client-Centric Approach.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TECHNOLOGIES -->
+<section id="technologies" class="section">
+  <h2><i class="fas fa-microchip"></i> Core Technologies</h2>
+  
+  <div class="tools-grid">
+    <div class="tool-card">
+      <h3><i class="fas fa-desktop"></i> Frontend Development</h3>
+      <p>Modern, responsive web applications built with cutting-edge technologies:</p>
+      <div class="tech-showcase">
+        <span class="tech-item">React.js</span>
+        <span class="tech-item">Next.js 14</span>
+        <span class="tech-item">Vue.js</span>
+        <span class="tech-item">TypeScript</span>
+        <span class="tech-item">Tailwind CSS</span>
+        <span class="tech-item">Redux</span>
+        <span class="tech-item">GraphQL</span>
+      </div>
+    </div>
+
+    <div class="tool-card">
+      <h3><i class="fas fa-server"></i> Backend Development</h3>
+      <p>Scalable server-side solutions and robust APIs:</p>
+      <div class="tech-showcase">
+        <span class="tech-item">Node.js</span>
+        <span class="tech-item">Python</span>
+        <span class="tech-item">Django</span>
+        <span class="tech-item">FastAPI</span>
+        <span class="tech-item">Express.js</span>
+        <span class="tech-item">NestJS</span>
+        <span class="tech-item">Spring Boot</span>
+      </div>
+    </div>
+
+    <div class="tool-card">
+      <h3><i class="fas fa-mobile-alt"></i> Mobile Development</h3>
+      <p>Cross-platform and native mobile applications:</p>
+      <div class="tech-showcase">
+        <span class="tech-item">React Native</span>
+        <span class="tech-item">Flutter</span>
+        <span class="tech-item">Swift</span>
+        <span class="tech-item">Kotlin</span>
+        <span class="tech-item">Ionic</span>
+        <span class="tech-item">Expo</span>
+      </div>
+    </div>
+
+    <div class="tool-card">
+      <h3><i class="fas fa-database"></i> Databases & Storage</h3>
+      <p>Reliable data management and storage solutions:</p>
+      <div class="tech-showcase">
+        <span class="tech-item">MongoDB</span>
+        <span class="tech-item">PostgreSQL</span>
+        <span class="tech-item">MySQL</span>
+        <span class="tech-item">Redis</span>
+        <span class="tech-item">Firebase</span>
+        <span class="tech-item">AWS DynamoDB</span>
+        <span class="tech-item">Elasticsearch</span>
+      </div>
+    </div>
+
+    <div class="tool-card">
+      <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+      <p>Cloud infrastructure and deployment automation:</p>
+      <div class="tech-showcase">
+        <span class="tech-item">AWS</span>
+        <span class="tech-item">Azure</span>
+        <span class="tech-item">Google Cloud</span>
+        <span class="tech-item">Docker</span>
+        <span class="tech-item">Kubernetes</span>
+        <span class="tech-item">Jenkins</span>
+        <span class="tech-item">Terraform</span>
+      </div>
+    </div>
+
+    <div class="tool-card">
+      <h3><i class="fas fa-robot"></i> AI/ML & Data Science</h3>
+      <p>Intelligent solutions and data analytics:</p>
+      <div class="tech-showcase">
+        <span class="tech-item">TensorFlow</span>
+        <span class="tech-item">PyTorch</span>
+        <span class="tech-item">OpenCV</span>
+        <span class="tech-item">Pandas</span>
+        <span class="tech-item">NumPy</span>
+        <span class="tech-item">Scikit-learn</span>
+        <span class="tech-item">Hugging Face</span>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- TOOLS & TECHNOLOGIES -->
 <section id="tools" class="section">
-  <h2><i class="fas fa-microchip"></i> Tools & Technologies</h2>
-
+  <h2><i class="fas fa-toolbox"></i> Our Tech Stack</h2>
+  
   <div class="tools-grid">
-
     <div class="tool-card">
       <h3><i class="fas fa-code"></i> Programming Languages</h3>
-      <p>JavaScript, Python, HTML, CSS</p>
+      <p>JavaScript, TypeScript, Python, Java, C#, Go, Rust, Swift, Kotlin, PHP, Ruby</p>
     </div>
 
     <div class="tool-card">
       <h3><i class="fas fa-layer-group"></i> Frameworks & Libraries</h3>
-      <p>
-        React, Next.js 16, Node.js, FastAPI,
-        React Native (Expo)
-      </p>
+      <p>React, Next.js, Vue, Angular, Svelte, Express, Django, Flask, Spring, .NET</p>
     </div>
 
     <div class="tool-card">
       <h3><i class="fas fa-database"></i> Databases</h3>
-      <p>MongoDB, MySQL, Firebase Firestore</p>
+      <p>MongoDB, PostgreSQL, MySQL, Redis, Cassandra, Elasticsearch, Firebase</p>
     </div>
 
     <div class="tool-card">
       <h3><i class="fas fa-cloud"></i> Cloud & Deployment</h3>
-      <p>Vercel, Amazon EC2</p>
+      <p>AWS, Azure, Google Cloud, Vercel, Netlify, Heroku, DigitalOcean</p>
     </div>
 
     <div class="tool-card">
       <h3><i class="fas fa-vr-cardboard"></i> Advanced Technologies</h3>
-      <p>Augmented Reality, TensorFlow</p>
+      <p>AR/VR, Blockchain, IoT, Computer Vision, NLP, Machine Learning</p>
     </div>
 
+    <div class="tool-card">
+      <h3><i class="fas fa-tools"></i> Development Tools</h3>
+      <p>Git, Docker, Kubernetes, Jenkins, VS Code, Figma, Jira, Postman</p>
+    </div>
   </div>
 </section>
 
 <!-- TEAM -->
 <section id="team" class="section">
   <h2><i class="fas fa-user-group"></i> Meet Our Experts</h2>
-
+  
   <div class="team-grid">
-
     <div class="card">
-      <h3>Sameer Amir</h3>
-      <p>Frontend Developer</p>
+      <h3>Nehan Amir</h3>
+      <p>Frontend Architect & React Specialist</p>
       <div class="links">
-        <a href="https://www.malkan.dev/" target="_blank"><i class="fas fa-globe"></i></a>
-        <a href="https://www.linkedin.com/in/sameer-amir-420576260" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.malkan.dev/" target="_blank" title="Portfolio"><i class="fas fa-globe"></i></a>
+        <a href="https://www.linkedin.com/in/sameer-amir-420576260" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/nehan690" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
       </div>
     </div>
 
     <div class="card">
       <h3>Malkan Shaheen</h3>
-      <p>Full Stack Developer</p>
+      <p>Full Stack Developer & DevOps Engineer</p>
       <div class="links">
-        <a href="https://nayab795.github.io/Nabi/" target="_blank"><i class="fas fa-globe"></i></a>
-        <a href="https://www.linkedin.com/in/malkan-shaheen-a09404260/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://nayab795.github.io/Nabi/" target="_blank" title="Portfolio"><i class="fas fa-globe"></i></a>
+        <a href="https://www.linkedin.com/in/malkan-shaheen-a09404260/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/malkan" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
       </div>
     </div>
 
     <div class="card">
       <h3>Nayab Bibi</h3>
-      <p>Web Developer & UI Designer</p>
+      <p>UI/UX Designer & Web Developer</p>
       <div class="links">
-        <a href="https://nehan690.github.io/Portfolio/" target="_blank"><i class="fas fa-globe"></i></a>
-        <a href="https://www.linkedin.com/in/nayab-bibi-25551b2b2" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://nehan690.github.io/Portfolio/" target="_blank" title="Portfolio"><i class="fas fa-globe"></i></a>
+        <a href="https://www.linkedin.com/in/nayab-bibi-25551b2b2" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/nayab795" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
       </div>
     </div>
 
     <div class="card">
       <h3>Ayesha Altaf</h3>
-      <p>Frontend Developer</p>
+      <p>Frontend Developer & React Native Expert</p>
       <div class="links">
-        <a href="https://ayeshaaltaf.netlify.app/" target="_blank"><i class="fas fa-globe"></i></a>
-        <a href="https://www.linkedin.com/in/ayesha-altaf-b43100385/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://ayeshaaltaf.netlify.app/" target="_blank" title="Portfolio"><i class="fas fa-globe"></i></a>
+        <a href="https://www.linkedin.com/in/ayesha-altaf-b43100385/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/ayeshaaltaf" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
       </div>
     </div>
-
   </div>
 </section>
+
+<!-- COMPANY SOCIAL LINKS -->
+<div class="company-social">
+  <a href="https://wa.me/1234567890" target="_blank" title="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="https://facebook.com/manovax.tech" target="_blank" title="Facebook">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://instagram.com/manovax.tech" target="_blank" title="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://linkedin.com/company/manovax-tech" target="_blank" title="LinkedIn">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+  <a href="https://whatsapp.com/channel/0029VaABC123" target="_blank" title="WhatsApp Channel">
+    <i class="fab fa-whatsapp-square"></i>
+  </a>
+</div>
 
 <!-- CONTACT -->
 <section id="contact" class="section">
   <h2><i class="fas fa-envelope"></i> Contact Us</h2>
-  <p>Email: contact@manovax.tech</p>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px;">
+    <div>
+      <h3><i class="fas fa-envelope"></i> Email</h3>
+      <p>contact@manovax.tech</p>
+      <p>support@manovax.tech</p>
+    </div>
+    <div>
+      <h3><i class="fas fa-phone"></i> Phone</h3>
+      <p>+1 (123) 456-7890</p>
+      <p>+92 300 1234567</p>
+    </div>
+    <div>
+      <h3><i class="fas fa-map-marker-alt"></i> Location</h3>
+      <p>Tech Hub, Silicon Valley</p>
+      <p>Islamabad, Pakistan</p>
+    </div>
+  </div>
 </section>
 
 <footer>
-  <p>© 2025 ManovaX.Tech — Innovation with Equality</p>
+  <p>© 2025 ManovaX.Tech — Innovation with Equality. All rights reserved.</p>
+  <p style="margin-top: 10px; font-size: 0.9rem;">
+    Crafting the future, one line of code at a time.
+  </p>
 </footer>
 
 </main>
